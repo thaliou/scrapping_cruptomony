@@ -19,7 +19,15 @@ Ces scripts utilisent la gem `nokogiri` pour parser le HTML des pages web et ext
   - Limite les résultats à 20 lignes pour éviter de surcharger la sortie.
   - Gère les erreurs en cas de données manquantes ou invalides.
 
-### 2. Scrapping des députés
+### 2. Scrapping des mairies
+- Fichier : [`lib/mail_scrapping.rb`](lib/mail_scrapping.rb)
+- Fonction principale : `deputy_scrap`
+- Fonctionnalités :
+  - Récupère les noms, prénoms et départements des députés français.
+  - Limite les résultats à 20 lignes.
+  - Gère les erreurs en cas de données manquantes ou invalides.
+
+### 3. Scrapping des députés
 - Fichier : [`lib/deputy_scrap.rb`](lib/deputy_scrap.rb)
 - Fonction principale : `deputy_scrap`
 - Fonctionnalités :
