@@ -12,7 +12,7 @@ Ces scripts utilisent la gem `nokogiri` pour parser le HTML des pages web et ext
 ## Fonctionnalités
 
 ### 1. Scrapping des cryptomonnaies
-- Fichier : [`lib/crypto_scrap.rb`](lib/crypto_scrap.rb)
+- Fichier : [`lib/crypto_scrap.rb`](lib/crypto_scrap.rb) et autres contenant le mot crypto
 - Fonction principale : `crypto_scrap`
 - Fonctionnalités :
   - Récupère les symboles et les prix des cryptomonnaies.
@@ -20,11 +20,11 @@ Ces scripts utilisent la gem `nokogiri` pour parser le HTML des pages web et ext
   - Gère les erreurs en cas de données manquantes ou invalides.
 
 ### 2. Scrapping des mairies
-- Fichier : [`lib/mail_scrapping.rb`](lib/mail_scrapping.rb)
-- Fonction principale : `deputy_scrap`
+- Fichiers : [`lib/mail_scrapp.rb`](lib/mail_scrapp.rb) et [`lib/mail_scrapping.rb`](lib/mail_scrapping.rb)
+- Fonction principale : `mail_scrapping`
 - Fonctionnalités :
-  - Récupère les noms, prénoms et départements des députés français.
-  - Limite les résultats à 20 lignes.
+  - Récupère les noms et les mails des mairies du département du Val-d'Oise.
+  - Limite les résultats à 20 lignes pour éviter de surcharger la sortie.
   - Gère les erreurs en cas de données manquantes ou invalides.
 
 ### 3. Scrapping des députés
